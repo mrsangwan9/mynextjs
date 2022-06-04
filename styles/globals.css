@@ -14,3 +14,25 @@ a {
 * {
   box-sizing: border-box;
 }
+h1{
+  display:flex;
+  justify-content: center;
+}
+ul{
+  /* background: beige; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+  /* text-decoration: underline; */
+  text-shadow: 1 1 red;
+  font-size: x-large;
+  list-style: none;
+
+}
+li:hover{
+  /* background-color: red; */
+  font-size:44px
+}
+li:active{
+  text-decoration: underline;
+}
